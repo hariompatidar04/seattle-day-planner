@@ -1,0 +1,71 @@
+{
+  "name": "World Time Zone Clock",
+  "version": "1.0.0",
+  "description": "A beautiful, interactive digital clock application that displays the current time across multiple time zones around the world.",
+  "author": "Hari Om Patidar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hariompatidar04/seattle-day-planner.git"
+  },
+  "homepage": "https://hariompatidar04.github.io/seattle-day-planner/",
+  "keywords": [
+    "clock",
+    "timezone",
+    "world-time",
+    "digital-clock",
+    "analog-clock",
+    "time-tracking",
+    "real-time"
+  ],
+  "features": {
+    "digital_clock": "Real-time digital time display in HH:MM:SS format",
+    "analog_clock": "Traditional analog clock face with moving hands",
+    "multiple_timezones": "Support for 33+ global timezones",
+    "customizable": "Add or remove timezones dynamically",
+    "responsive": "Works seamlessly on mobile, tablet, and desktop",
+    "no_dependencies": "Pure HTML/CSS/JavaScript - no external libraries",
+    "real_time_updates": "Updates every second automatically",
+    "timezone_details": "Shows offset, date, hour, and minute for each timezone"
+  },
+  "default_timezones": [
+    "America/Los_Angeles",
+    "America/Chicago",
+    "America/New_York",
+    "Europe/London",
+    "Europe/Paris",
+    "Asia/Tokyo",
+    "Asia/Shanghai",
+    "Australia/Sydney",
+    "Asia/Dubai",
+    "Asia/Kolkata"
+  ],
+  "scripts": {
+    "dev": "open index.html",
+    "deploy": "git push origin main"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "setup": "SETUP.md",
+    "deployment": "DEPLOYMENT.md"
+  },
+  "browser_support": {
+    "chrome": "90+",
+    "firefox": "88+",
+    "safari": "14+",
+    "edge": "90+"
+  },
+  "technologies": {
+    "html5": "Semantic markup",
+    "css3": "Modern styling, gradients, animations",
+    "javascript_es6": "Vanilla JS, no frameworks",
+    "intl_api": "Browser internationalization for timezones"
+  },
+  "deployment": {
+    "platform": "GitHub Pages",
+    "ci_cd": "GitHub Actions",
+    "workflow_file": "deploy.yml",
+    "auto_deploy": true,
+    "trigger": "push to main branch"
+  }
+}
